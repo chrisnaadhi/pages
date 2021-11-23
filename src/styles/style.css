@@ -111,7 +111,8 @@ h2 {
 }
 
 table {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .input-box {
