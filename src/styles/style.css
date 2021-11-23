@@ -267,8 +267,9 @@ hr {
   }
 
   .content {
+    margin-top: 3rem;
     padding: 0 15px;
-    height: 53vh;
+    height: 55vh;
   }
 
   .description {
