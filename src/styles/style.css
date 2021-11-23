@@ -87,7 +87,7 @@ h1 {
 }
 
 .description {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 h1:hover {
@@ -222,7 +222,7 @@ hr {
 
 @media (max-width: 1024px) {
   .description {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .bi {
@@ -233,7 +233,7 @@ hr {
 
 @media (max-width: 768px) {
   .description {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .bi {
@@ -243,8 +243,48 @@ hr {
 }
 
 @media (max-width: 425px) {
+  h1 {
+    font-size: 25px;
+  }
+
   .description {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  input {
+    width: 15rem;
+  }
+
+  .tanya-text {
+    font-size: 12px;
+  }
+
+  .bi {
+    width: 55px;
+    height: 55px;
+  }
+
+  .button-group {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .profile {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input {
+    width: 15rem;
+  }
+
+  .description {
+    font-size: 12px;
   }
 
   .bi {
@@ -254,5 +294,13 @@ hr {
 
   .button-group {
     margin-top: 0px;
+  }
+
+  .tanya-text {
+    font-size: 9px;
+  }
+
+  #tanggal {
+    font-size: 15px;
   }
 }
