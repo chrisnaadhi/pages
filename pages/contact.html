@@ -8,51 +8,55 @@
     <title>Website Aku</title>
   </head>
   <body onload="jamDigital()">
-    <nav>
-      <h3>My Web</h3>
-      <div class="topnav">
-        <a href="../index.html">Home</a>
-        <a href="../pages/about.html">About</a>
-        <a href="#" class="active">QnA</a>
-      </div>
-    </nav>
-    <div class="content">
-      <img class="profile" src="../src/images/pas-foto.png" alt="" />
-      <h1>Chrisna Adhi Pranoto</h1>
-      <h2>QnA</h2>
-      <table class="description">
-        <tr>
-          <td>Pertanyaan</td>
-          <td>:</td>
-          <td id="pertanyaan">Halo Dunia!</td>
-        </tr>
+    <main>
+      <nav>
+        <h3>My Web</h3>
+        <div class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../pages/about.html">About</a>
+          <a href="#" class="active">QnA</a>
+        </div>
+      </nav>
+      <div class="content">
+        <img class="profile" src="../src/images/pas-foto.png" alt="" />
+        <h1>Chrisna Adhi Pranoto</h1>
+        <h2>QnA</h2>
+        <table class="description">
+          <tr>
+            <td>Pertanyaan</td>
+            <td>:</td>
+            <td id="pertanyaan">Halo Dunia!</td>
+          </tr>
 
-        <tr>
-          <td>Jawaban</td>
-          <td>:</td>
-          <td id="jawaban">Halo Juga.</td>
-        </tr>
-      </table>
+          <tr>
+            <td>Jawaban</td>
+            <td>:</td>
+            <td id="jawaban">Halo Juga.</td>
+          </tr>
+        </table>
 
-      <div class="input-box">
-        <input type="text" id="tanya" />
-        <button onclick="tanyain()" class="tanya-text">Tanya!</button>
-      </div>
+        <div class="input-box">
+          <input type="text" id="tanya" />
+          <button onclick="tanyain()" class="tanya-text">Tanya!</button>
+        </div>
 
-      <div class="input-box">
-        <input type="text" id="jawab" />
-        <button onclick="jawabin()" class="tanya-text">Jawab!</button>
-      </div>
+        <div class="input-box">
+          <input type="text" id="jawab" />
+          <button onclick="jawabin()" class="tanya-text">Jawab!</button>
+        </div>
 
-      <div class="button-group">
-        <a href="../index.html"><button class="index-btn">Back</button></a>
+        <div class="button-group">
+          <a href="../index.html"><button class="index-btn">Back</button></a>
+        </div>
       </div>
-    </div>
+    </main>
     <footer>
-      <hr />
-      <p id="tanggal"></p>
-      <p id="jamDigital"></p>
-      <p id="copyright">&copy; 2021 Chrisna Adhi Pranoto</p>
+      <div class="footer-content">
+        <hr />
+        <p id="tanggal"></p>
+        <p id="jamDigital"></p>
+        <p id="copyright">&copy; 2021 Chrisna Adhi Pranoto</p>
+      </div>
     </footer>
     <script src="../src/scripts/script.js"></script>
   </body>

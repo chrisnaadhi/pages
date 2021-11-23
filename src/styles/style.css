@@ -3,17 +3,22 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background-image: url("/src/sirakava-go-gokayama-ostrov-4728.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  display: flex;
   height: 100vh;
+}
+
+main {
+  display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
   padding-top: 100px;
+  margin: 0 20px;
 }
 
 nav {
@@ -21,12 +26,12 @@ nav {
   position: absolute;
   z-index: 1;
   float: left;
-  margin-top: -125px;
+  margin-top: -115px;
   background-color: #ffffff28;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 15px;
-  padding: 2px 20px;
+  padding: 15px 20px 4px 20px;
 }
 
 h3 {
@@ -64,7 +69,7 @@ h3 {
   -webkit-backdrop-filter: blur(25px);
   width: 80vh;
   height: 55vh;
-  margin-top: 55px;
+  margin-top: 5rem;
 }
 
 img {
@@ -88,6 +93,7 @@ h1 {
 }
 
 .description {
+  margin: 15px 0;
   font-size: 18px;
 }
 
@@ -166,9 +172,16 @@ tr {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  width: 100%;
   text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer-content {
+  width: 55%;
+  margin: 0 auto;
 }
 
 #jamDigital,
@@ -257,21 +270,26 @@ hr {
   }
 
   .description {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   input {
     width: 100%;
     height: 2.3em;
-    margin: 0 0 5px 0px;
+    margin: 8px 0;
   }
 
   .tanya-text {
     width: 100%;
   }
+
   .bi {
     width: 55px;
     height: 55px;
+  }
+
+  #tanggal {
+    font-size: 18px;
   }
 }
 
@@ -310,6 +328,10 @@ hr {
 
   .button-group {
     margin-top: 0px;
+  }
+
+  #tanggal {
+    font-size: 15px;
   }
 }
 
@@ -351,6 +373,6 @@ hr {
   }
 
   #tanggal {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
