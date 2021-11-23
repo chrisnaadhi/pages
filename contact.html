@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Website Aku</title>
+  </head>
+  <body onload="jamDigital()">
+    <nav>
+      <h3>My Web</h3>
+      <div class="topnav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" class="active">QnA</a>
+      </div>
+    </nav>
+    <div class="content">
+      <img src="./src/pas-foto.png" alt="" />
+      <h1>Chrisna Adhi Pranoto</h1>
+      <h2>QnA</h2>
+      <table>
+        <tr>
+          <td>Pertanyaan</td>
+          <td>:</td>
+          <td id="pertanyaan">Halo Dunia!</td>
+        </tr>
+
+        <tr>
+          <td>Jawaban</td>
+          <td>:</td>
+          <td id="jawaban">Halo Juga.</td>
+        </tr>
+      </table>
+
+      <div>
+        <input type="text" id="tanya" />
+        <button onclick="tanyain()">Tanya!</button>
+      </div>
+
+      <div>
+        <input type="text" id="jawab" />
+        <button onclick="jawabin()">Jawab!</button>
+      </div>
+
+      <div class="button-group">
+        <a href="index.html"><button class="index-btn">Back</button></a>
+      </div>
+    </div>
+    <footer>
+      <hr />
+      <p id="tanggal"></p>
+      <p id="jamDigital"></p>
+      <p id="copyright">&copy; 2021 Chrisna Adhi Pranoto</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
