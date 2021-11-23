@@ -232,6 +232,11 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .profile {
+    width: 120px;
+    height: 120px;
+  }
+
   .description {
     font-size: 15px;
   }
@@ -243,8 +248,13 @@ hr {
 }
 
 @media (max-width: 425px) {
+  .profile {
+    width: 90px;
+    height: 90px;
+  }
+
   h1 {
-    font-size: 25px;
+    font-size: 17px;
   }
 
   .description {
@@ -271,12 +281,12 @@ hr {
 
 @media (max-width: 375px) {
   .profile {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   input {
