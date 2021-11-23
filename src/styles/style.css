@@ -6,6 +6,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background-image: url("/src/sirakava-go-gokayama-ostrov-4728.jpg");
   background-repeat: no-repeat;
@@ -72,7 +73,7 @@ h3 {
   margin-top: 5rem;
 }
 
-img {
+.profile {
   margin-top: -75px;
   width: 150px;
   height: 150px;
