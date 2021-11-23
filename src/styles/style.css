@@ -82,6 +82,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 35px;
   margin: 0;
   transition: all 0.7s ease-in-out;
 }
@@ -107,10 +108,16 @@ table {
   margin: 0 auto;
 }
 
+.input-box {
+  margin-bottom: 10px;
+}
+
 input {
+  color: #00afaf;
   width: 25rem;
-  height: 2em;
-  margin: 10px;
+  padding: 0 5px;
+  height: 2.6em;
+  margin: 8px 5px;
   border-radius: 8px;
   border: 2px solid transparent;
   background-color: rgb(196, 196, 196);
@@ -154,7 +161,6 @@ tr {
 }
 
 .index-btn:hover {
-  /* border: 1px solid white; */
   background-color: #00afaf;
   color: white;
 }
@@ -233,14 +239,30 @@ hr {
 
 @media (max-width: 768px) {
   .profile {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .content {
+    padding: 0 15px;
   }
 
   .description {
     font-size: 15px;
   }
 
+  input {
+    width: 100%;
+    margin: 8px 0px;
+  }
+
+  .tanya-text {
+    width: 100%;
+  }
   .bi {
     width: 55px;
     height: 55px;
@@ -257,15 +279,21 @@ hr {
     font-size: 17px;
   }
 
+  .content {
+    padding: 0 15px;
+    height: 45vh;
+  }
+
   .description {
     font-size: 14px;
   }
 
   input {
-    width: 15rem;
+    width: 100%;
   }
 
   .tanya-text {
+    width: 100%;
     font-size: 12px;
   }
 
@@ -289,8 +317,13 @@ hr {
     font-size: 14px;
   }
 
+  .content {
+    padding: 0 15px;
+    height: 45vh;
+  }
+
   input {
-    width: 15rem;
+    width: 100%;
   }
 
   .description {
@@ -307,6 +340,7 @@ hr {
   }
 
   .tanya-text {
+    width: 100%;
     font-size: 9px;
   }
 
