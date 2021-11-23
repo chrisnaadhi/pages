@@ -9,8 +9,8 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   display: flex;
+  height: 100vh;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   padding-top: 100px;
@@ -62,8 +62,8 @@ h3 {
   background-color: #ffffff28;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  width: 45rem;
-  height: 30rem;
+  width: 80vh;
+  height: 55vh;
   margin-top: 55px;
 }
 
@@ -84,6 +84,10 @@ h1 {
   -webkit-text-fill-color: transparent;
   margin: 0;
   transition: all 0.7s ease-in-out;
+}
+
+.description {
+  font-size: 25px;
 }
 
 h1:hover {
@@ -133,7 +137,7 @@ tr {
 }
 
 .button-group {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 10px 0;
 }
 
@@ -214,4 +218,41 @@ hr {
   border: 3px solid #cd486b;
   background-color: white;
   transition-duration: 500ms;
+}
+
+@media (max-width: 1024px) {
+  .description {
+    font-size: 20px;
+  }
+
+  .bi {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+
+  .bi {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .description {
+    font-size: 15px;
+  }
+
+  .bi {
+    width: 45px;
+    height: 45px;
+  }
+
+  .button-group {
+    margin-top: 0px;
+  }
 }
