@@ -147,10 +147,6 @@ button {
   font-family: "Mochiy Pop P One", sans-serif;
 }
 
-tr {
-  text-align: left;
-}
-
 .button-group {
   margin-top: 15px;
   padding: 10px 0;
@@ -281,6 +277,10 @@ hr {
     width: 100%;
     height: 2.3em;
     margin: 8px 0;
+  }
+
+  tr {
+    font-size: 12px;
   }
 
   .tanya-text {
