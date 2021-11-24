@@ -69,7 +69,7 @@ h3 {
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   width: 80vh;
-  height: 65vh;
+  height: 75vh;
   margin-top: 5rem;
 }
 
@@ -170,7 +170,7 @@ button {
 }
 
 footer {
-  margin-top: 60px;
+  margin-top: 75px;
   /* position: absolute; */
   bottom: 0;
   width: 100%;
@@ -266,7 +266,7 @@ hr {
   .content {
     margin-top: 3rem;
     padding: 0 15px;
-    height: 60vh;
+    height: 70vh;
   }
 
   .description {
