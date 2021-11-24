@@ -31,6 +31,7 @@ function jamDigital() {
     return i
   }
 
+  jam = cekDigit(jam);
   menit = cekDigit(menit);
   detik = cekDigit(detik);
   
