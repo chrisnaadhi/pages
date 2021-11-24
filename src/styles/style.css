@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -21,6 +22,8 @@ main {
   padding-top: 100px;
   margin: 0 20px;
 }
+
+/* Navigation Menu Bar */
 
 nav {
   text-align: center;
@@ -60,6 +63,8 @@ h3 {
   border-bottom: 2px solid #00afaf;
 }
 
+/* Main Contents */
+
 .content {
   text-align: center;
   padding: 0 15px;
@@ -94,7 +99,7 @@ h1 {
 }
 
 .description {
-  margin: 15px 0;
+  margin: 15px 10px;
   font-size: 18px;
 }
 
@@ -115,6 +120,10 @@ h2 {
 table {
   display: flex;
   justify-content: center;
+}
+
+tbody {
+  text-align: left;
 }
 
 .input-box {
@@ -169,6 +178,40 @@ button {
   color: white;
 }
 
+.bi {
+  color: white;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 15px;
+  width: 75px;
+  height: 75px;
+  transition: all 0.5s ease-in-out;
+}
+
+.bi-twitter:hover {
+  color: #00acee;
+  border: 3px solid #00acee;
+  background-color: white;
+  transition-duration: 500ms;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+  background-color: white;
+  transition-duration: 500ms;
+}
+
+.bi-instagram:hover {
+  color: #cd486b;
+  border: 3px solid #cd486b;
+  background-color: white;
+  transition-duration: 500ms;
+}
+
+/* Footer */
+
 footer {
   margin-top: 3.5rem;
   width: 100%;
@@ -204,38 +247,6 @@ hr {
   border: 2px solid white;
 }
 
-.bi {
-  color: white;
-  border: 3px solid white;
-  border-radius: 8px;
-  padding: 10px;
-  margin: 10px 15px;
-  width: 75px;
-  height: 75px;
-  transition: all 0.5s ease-in-out;
-}
-
-.bi-twitter:hover {
-  color: #00acee;
-  border: 3px solid #00acee;
-  background-color: white;
-  transition-duration: 500ms;
-}
-
-.bi-facebook:hover {
-  color: #3b5998;
-  border: 3px solid #3b5998;
-  background-color: white;
-  transition-duration: 500ms;
-}
-
-.bi-instagram:hover {
-  color: #cd486b;
-  border: 3px solid #cd486b;
-  background-color: white;
-  transition-duration: 500ms;
-}
-
 @media (max-width: 1024px) {
   .description {
     font-size: 18px;
@@ -246,6 +257,8 @@ hr {
     height: 55px;
   }
 }
+
+/* Responsive Media */
 
 @media (max-width: 768px) {
   .profile {
