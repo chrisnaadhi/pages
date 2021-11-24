@@ -69,7 +69,7 @@ h3 {
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   width: 80vh;
-  height: 75vh;
+  height: 55vh;
   margin-top: 5rem;
 }
 
@@ -170,7 +170,7 @@ button {
 }
 
 footer {
-  margin-top: 75px;
+  margin-top: 50px;
   /* position: absolute; */
   bottom: 0;
   width: 100%;
@@ -266,7 +266,7 @@ hr {
   .content {
     margin-top: 3rem;
     padding: 0 15px;
-    height: 70vh;
+    height: 55vh;
   }
 
   .description {
@@ -340,6 +340,10 @@ hr {
 }
 
 @media (max-width: 375px) {
+  body {
+    height: 100vh;
+  }
+
   .profile {
     width: 80px;
     height: 80px;
@@ -378,5 +382,10 @@ hr {
 
   #tanggal {
     font-size: 10px;
+  }
+
+  .footer-content {
+    width: 25vh;
+    margin: 0 auto;
   }
 }
