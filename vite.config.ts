@@ -13,7 +13,7 @@ const config: UserConfig = {
       extractors: [extractorSvelte],
       presets: [presetUno(), presetIcons],
       transformers: [transformerDirectives(), transformerVariantGroup()],
-      shortcuts: [],
+      shortcuts: [{ btn: "px-3 py-2 border-none rounded cursor-pointer" }],
     }),
     sveltekit(),
   ],

@@ -7,6 +7,12 @@
   --color-theme-2: #fff720;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 a {
   @apply text-orange hover:(underline);
 }
