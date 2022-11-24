@@ -7,10 +7,39 @@
   --color-theme-2: #fff720;
 }
 
-body {
-  min-height: 100vh;
-  box-sizing: border-box;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+a {
+  @apply text-orange hover:(underline);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-500;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
 }
