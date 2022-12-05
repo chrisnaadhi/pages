@@ -34,8 +34,8 @@
       <p />
     </div>
     <div class="text-center">
-      <h3>{formatTime}</h3>
-      <p>&copy; {formatDate}</p>
+      <h3 class="text-4xl">{formatTime}</h3>
+      <p class="text-xs">&copy; {formatDate}</p>
     </div>
   </footer>
 </main>

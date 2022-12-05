@@ -12,16 +12,16 @@
       <p class="text-2xl">⚡</p>
     </header>
     <section>
-      <button type="menu" class="btn bg-gray-50">Twitter</button>
-      <button type="menu" class="btn bg-gray-50">Github</button>
-      <button type="menu" class="btn bg-gray-50">Dark</button>
+      <button type="menu" class="btn bg-white">Twitter</button>
+      <button type="menu" class="btn bg-white">Github</button>
+      <button type="menu" class="btn bg-white">Dark</button>
     </section>
   </main>
 </template>
 
 <style>
   main {
-    @apply flex justify-between items-center bg-gray-2 rounded-b-xl p-3;
+    @apply flex justify-between items-center bg-gray-1 rounded-b-xl p-3;
   }
 
   header {
