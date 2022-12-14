@@ -11,7 +11,12 @@ const config: UserConfig = {
   plugins: [
     UnoCSS({
       extractors: [extractorSvelte],
-      presets: [presetUno(), presetIcons],
+      presets: [
+        presetUno(),
+        presetIcons({
+          scale: 1.2,
+        }),
+      ],
       transformers: [transformerDirectives(), transformerVariantGroup()],
       shortcuts: [{ btn: "px-3 py-2 border-none rounded cursor-pointer" }],
     }),

@@ -13,8 +13,24 @@
   margin: 0;
 }
 
-a {
-  @apply text-orange hover:(underline);
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-orange-3 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-orange cursor-pointer;
+}
+
+body {
+  @apply bg-gray-2 mx-2 lg:mx-0;
 }
 
 h1,
@@ -23,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-500;
+  @apply font-500 text-dark-3;
 }
 
 h1 {
@@ -48,4 +64,16 @@ h5 {
 
 h6 {
   @apply text-lg;
+}
+
+p {
+  @apply text-dark-1;
+}
+
+.link {
+  @apply text-orange no-underline transition-all-500 px-3 py-1 hover:(bg-dark-4);
+}
+
+.social {
+  @apply bg-gray-2 transition-all-500;
 }

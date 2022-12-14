@@ -24,8 +24,14 @@
   });
 </script>
 
-<main class="max-w-4xl ma">
-  <Header />
+<svelte:head>
+  <title>Miniature Garden</title>
+</svelte:head>
+
+<main class="max-w-4xl ma flex flex-col min-h-screen">
+  <header>
+    <Header />
+  </header>
   <section class="main-content">
     <slot />
   </section>
@@ -42,6 +48,9 @@
 
 <style>
   .main-content {
-    @apply flex items-center justify-center;
+    @apply flex-1 items-center justify-center text-center;
+  }
+  footer {
+    @apply bg-white rounded-t-xl p-3;
   }
 </style>

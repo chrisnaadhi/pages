@@ -1,9 +1,8 @@
 <script>
-  let title = "About Me";
 </script>
 
-<section class="">
-  <h1>{title}</h1>
+<section>
+  <h1>Hello There!</h1>
 </section>
 
 <style>
