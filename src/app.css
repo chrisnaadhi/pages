@@ -66,6 +66,10 @@ h6 {
   @apply text-lg;
 }
 
+a {
+  @apply text-orange;
+}
+
 p {
   @apply text-dark-1;
 }

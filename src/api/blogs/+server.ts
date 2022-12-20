@@ -1,10 +1,7 @@
-<script lang="ts">
-  import { onMount } from "svelte";
+import { error } from "@sveltejs/kit";
 
-  import Profile from "$lib/components/Profile.svelte";
-  import MainContent from "$lib/components/MainContent.svelte";
-  let myName = "Chrisna Adhi Pranoto";
-  let blogs = [
+export async function GET() {
+  const blogs = [
     {
       title: "Hello World!",
       content:
@@ -26,22 +23,8 @@
         "These types of posts are almost always a hit because people love to read about other people's ‘mistakes'. Plus, they provide a ton of value for your readers and help them to avoid common pitfalls. Give your readers a look behind-the-curtain. Be authentic and transparent and people will love you for it.",
     },
   ];
-</script>
-
-<main class="text-center">
-  <Profile {myName} />
-  <section>
-    <h2 class="heading-text">Recent Posts</h2>
-    <MainContent {blogs} />
-  </section>
-</main>
-
-<style>
-  section {
-    @apply bg-white rounded-xl p-5 my-5;
+  if (!blogs) {
+    throw error(400, "No Blogs can't be fetched");
   }
-
-  .heading-text {
-    @apply text-orange mb-5;
-  }
-</style>
+  return new Response(JSON.stringify(blogs));
+}
