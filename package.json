@@ -27,8 +27,5 @@
     "unocss": "^0.47.1",
     "vite": "^4.0.0"
   },
-  "type": "module",
-  "dependencies": {
-    "@iconify-json/ic": "^1.1.10"
-  }
+  "type": "module"
 }

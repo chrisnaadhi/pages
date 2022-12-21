@@ -75,7 +75,7 @@ p {
 }
 
 .link {
-  @apply text-orange no-underline transition-all-500 px-3 py-1 hover:(bg-dark-4);
+  @apply text-orange no-underline transition-all-500 rounded px-3 py-1 hover:(bg-orange text-white);
 }
 
 .social {
