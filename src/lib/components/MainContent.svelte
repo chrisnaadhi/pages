@@ -12,6 +12,7 @@
     <BaseCard>
       <h4>{blog.title}</h4>
       <p>{limitTextContent(blog.content)}...</p>
+      <a href={"posts/" + blog.slug}>Read More</a>
     </BaseCard>
   {/each}
 </section>
