@@ -6,10 +6,10 @@
   <div class="max-w-70 text-right">
     <h4>{myName}</h4>
     <p class="text-sm text-gray-6">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum
-      laudantium iusto eum animi possimus error reprehenderit.
+      I'm Chrisna, Full-time Learner. Aspiring Web Developer and Enthusiast of
+      IT in Library & Information Science.
     </p>
-    <p>Learn more..</p>
+    <a href="/about" class="text-sm text-orange no-underline">About me..</a>
   </div>
   <div>
     <img

@@ -6,11 +6,12 @@
     <nav>
       <a href="/" class="link">Home</a>
       <a href="/about" class="link">About</a>
+      <a href="/posts" class="link">Blog</a>
       <a href="/contact" class="link">Contact</a>
     </nav>
     <section>
       <a href="https://github.com/chrisnaadhi" target="_blank" rel="noreferrer">
-        <button type="menu" class="btn social" id="github">
+        <button class="btn social" id="github">
           <div class="icon i-mdi-github bg-dark" id="github-icon" />
         </button>
       </a>
@@ -28,7 +29,7 @@
         target="_blank"
         rel="noreferrer"
       >
-        <button type="menu" class="btn social" id="discord">
+        <button class="btn social" id="discord">
           <div class="icon i-mdi-instagram bg-pink-5" id="discord-icon" />
         </button>
       </a>
@@ -38,7 +39,7 @@
 
 <style>
   main {
-    @apply flex justify-between items-center bg-white rounded-b-xl p-3;
+    @apply fixed w-full max-w-4xl flex justify-between items-center bg-white rounded-b-xl p-3;
   }
   .social:hover .icon {
     @apply bg-white;

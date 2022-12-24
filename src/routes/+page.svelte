@@ -10,8 +10,9 @@
 <main class="text-center">
   <Profile {myName} />
   <section>
-    <h2 class="heading-text">Recent Posts</h2>
+    <h3 class="heading-text">My Recent Posts</h3>
     <MainContent blogs={data.blogs} />
+    <a href="/posts">Other Posts ></a>
   </section>
 </main>
 
@@ -21,6 +22,6 @@
   }
 
   .heading-text {
-    @apply text-orange mb-5;
+    @apply text-orange;
   }
 </style>

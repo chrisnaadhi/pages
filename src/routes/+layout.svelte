@@ -48,7 +48,7 @@
 
 <style>
   .main-content {
-    @apply flex-1 items-center justify-center text-center;
+    @apply flex-1 mt-15 items-center justify-center text-center;
   }
   footer {
     @apply bg-white rounded-t-xl p-3;

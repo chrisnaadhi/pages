@@ -10,6 +10,7 @@ export const load = (async ({ fetch, params }) => {
     return {
       title: blog.title,
       content: blog.content,
+      date: blog.date,
     };
   }
 
