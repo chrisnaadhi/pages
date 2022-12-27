@@ -5,11 +5,11 @@
 <section class="flex items-center justify-center gap-5 my-4">
   <div class="max-w-70 text-right">
     <h4>{myName}</h4>
-    <p class="text-sm text-gray-6">
+    <p class="text-xs text-gray-6">
       I'm Chrisna, Full-time Learner. Aspiring Web Developer and Enthusiast of
       IT in Library & Information Science.
     </p>
-    <a href="/about" class="text-sm text-orange no-underline">About me..</a>
+    <a href="/about" class="text-sm text-orange-6 no-underline">About me..</a>
   </div>
   <div>
     <img

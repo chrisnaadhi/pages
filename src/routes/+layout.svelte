@@ -25,7 +25,8 @@
 </script>
 
 <svelte:head>
-  <title>Miniature Garden</title>
+  <title>Miniature Garden | Chrisna Adhi's Blog</title>
+  <link rel="shortcut icon" href="mini-garden.ico" type="image/x-icon" />
 </svelte:head>
 
 <main class="max-w-4xl ma flex flex-col min-h-screen">
@@ -48,9 +49,9 @@
 
 <style>
   .main-content {
-    @apply flex-1 mt-15 items-center justify-center text-center;
+    @apply flex-1 mt-12 items-center justify-center text-center mx-2;
   }
   footer {
-    @apply bg-white rounded-t-xl p-3;
+    @apply bg-white rounded-t-xl p-3 mx-2;
   }
 </style>

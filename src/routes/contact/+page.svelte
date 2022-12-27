@@ -2,7 +2,7 @@
 </script>
 
 <section>
-  <h1>Hello There!</h1>
+  <h2>Hello There!</h2>
   <p>
     You can contact me via <a href="https://twitter.com/chrisnaadhip">Twitter</a
     > or Discord chrisna#7305

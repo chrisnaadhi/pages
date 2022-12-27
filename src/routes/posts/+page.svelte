@@ -7,7 +7,7 @@
 </script>
 
 <section>
-  <h1>All of my Posts</h1>
+  <h2>All of my Posts</h2>
   <div class="blogs">
     {#each data.blogs as post}
       <BaseCard>
