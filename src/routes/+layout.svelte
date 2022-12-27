@@ -27,6 +27,7 @@
 <svelte:head>
   <title>Miniature Garden | Chrisna Adhi's Blog</title>
   <link rel="shortcut icon" href="mini-garden.ico" type="image/x-icon" />
+  <meta name="description" content="My Mini Blogs like a Miniature Garden" />
 </svelte:head>
 
 <main class="max-w-4xl ma flex flex-col min-h-screen">

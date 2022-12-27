@@ -4,6 +4,9 @@
   export let data: PageData;
 </script>
 
+<svelte:head>
+  <meta name="description" content={data.title} />
+</svelte:head>
 <section>
   <h3>{data.title}</h3>
   <p class="italic font-500 pb-3">{data.date}</p>

@@ -10,8 +10,17 @@
       <a href="/contact" class="menu-link">Contact</a>
     </nav>
     <section>
-      <a href="https://github.com/chrisnaadhi" target="_blank" rel="noreferrer">
-        <button class="icon-wrapper social" id="github">
+      <a
+        href="https://github.com/chrisnaadhi"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Github Profile"
+      >
+        <button
+          class="icon-wrapper social"
+          id="github"
+          aria-label="Github Button"
+        >
           <div class="icon i-mdi-github bg-dark" id="github-icon" />
         </button>
       </a>
@@ -19,8 +28,13 @@
         href="https://twitter.com/chrisnaadhip"
         target="_blank"
         rel="noreferrer"
+        aria-label="Twitter Profile"
       >
-        <button class="icon-wrapper social" id="twitter">
+        <button
+          class="icon-wrapper social"
+          id="twitter"
+          aria-label="Twitter Button"
+        >
           <div class="icon i-mdi-twitter bg-blue" id="twitter-icon" />
         </button>
       </a>
@@ -28,8 +42,13 @@
         href="https://instagram.com/chrisnaadhip"
         target="_blank"
         rel="noreferrer"
+        aria-label="Instagram Profile"
       >
-        <button class="icon-wrapper social" id="discord">
+        <button
+          class="icon-wrapper social"
+          id="instagram"
+          aria-label="Instagram Button"
+        >
           <div class="icon i-mdi-instagram bg-pink-5" id="discord-icon" />
         </button>
       </a>
@@ -56,7 +75,7 @@
   #github:hover {
     @apply bg-dark;
   }
-  #discord:hover {
+  #instagram:hover {
     @apply bg-pink-5;
   }
 </style>
