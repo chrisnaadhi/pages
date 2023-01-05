@@ -76,6 +76,10 @@ p {
   @apply text-orange-6 no-underline transition-all-500 rounded text-sm px-1 sm:(text-base px-3 py-1) hover:(bg-orange-6 text-white);
 }
 
+.menu-active {
+  @apply bg-orange-6 text-white;
+}
+
 .social {
   @apply bg-gray-2 transition-all-500;
 }

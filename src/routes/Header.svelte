@@ -1,13 +1,20 @@
-<script>
+<script lang="ts">
+  import { page } from "$app/stores";
+  let path: string;
+
+  $: path = $page.url.pathname;
+  $: active = (value: string) => {
+    return path === value ? "menu-active menu-link" : "menu-link";
+  };
 </script>
 
 <template>
   <main>
     <nav>
-      <a href="/" class="menu-link">Home</a>
-      <a href="/about" class="menu-link">About</a>
-      <a href="/posts" class="menu-link">Blog</a>
-      <a href="/contact" class="menu-link">Contact</a>
+      <a href="/" class={active("/")}>Home</a>
+      <a href="/about" class={active("/about")}>About</a>
+      <a href="/posts" class={active("/posts")}>Blog</a>
+      <a href="/contact" class={active("/contact")}>Contact</a>
     </nav>
     <section>
       <a
@@ -58,7 +65,7 @@
 
 <style>
   main {
-    --at-apply: fixed w-full max-w-4xl flex justify-between items-center bg-white rounded-b-xl p-3 mx-0 sm:mx-2;
+    --at-apply: fixed w-full max-w-4xl flex justify-between items-center bg-white rounded-b-xl p-3;
   }
   .icon-wrapper {
     --at-apply: p-1 rounded-lg cursor-pointer sm:(px-3 py-2 rounded-lg);

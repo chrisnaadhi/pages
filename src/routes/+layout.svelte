@@ -50,9 +50,9 @@
 
 <style>
   .main-content {
-    @apply flex-1 mt-12 items-center justify-center text-center mx-2;
+    @apply flex-1 mt-12 items-center justify-center text-center;
   }
   footer {
-    @apply bg-white rounded-t-xl p-3 mx-2;
+    @apply bg-white rounded-t-xl p-3;
   }
 </style>
