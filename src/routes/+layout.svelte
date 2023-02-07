@@ -38,14 +38,16 @@
     <slot />
   </section>
   <footer>
-    <div>
-      <p />
-    </div>
     <div class="text-center">
       <h3 class="text-4xl">{formatTime}</h3>
       <p class="text-xs">&copy; {formatDate}</p>
     </div>
   </footer>
+  <div class="fixed bottom-0 right-0 m-2">
+    <div class="bg-dark rounded-lg p-2">
+      <div class="icon i-mdi-weather-night text-2xl bg-blue-3" />
+    </div>
+  </div>
 </main>
 
 <style>

@@ -45,6 +45,14 @@ export const GET = (() => {
       content: `It's been years since i'm doing some design and user interface with the tendency of better user experiences. Sometimes kinda kinky to do optimization of views on any devices, tho it's going better with the support of CSS Frameworks. When CSS Frameworks make it easier to do scaling mobile view to desktop view, css framework come with some caveats that i need to breakthrough. <div class="code-block"><pre>@apply text-black px-3 py-2;</pre><pre>--at-apply: text-black px-3 py-2;</pre></div> I'm doing something like that for months because <a href="https://github.com/unocss/unocss" target="_blank" rel="noreferrer">UnoCSS</a> has some flaw with it's transformerDirectives. Though, it was ugly but it's better enough, just need some styling rule so it's not going to messed up real quick.`,
       slug: "ux-is-hard",
     },
+    {
+      id: 7,
+      title:
+        "Web Platform today make everything easier and harder at the same time",
+      date: "7 February 2023",
+      content: `Build something in web is really easy nowaday, thanks to the innovation of three of the main language of the web (HTML, CSS and Javascript) that has evolved throught the year. Tho sometimes there is some caveat that web platform was harder than what we think, more over because everyday we got newer and fresh javascript framework to compete. But that's the reason we're saw the easier part of the web and the harder part of the web, thus i think web platform are not going to anywhere soon. <br /> Gotta love to experiment and doing something fun on the web!`,
+      slug: "web-platform-today",
+    },
   ];
   if (!blogs) {
     throw error(404, "No Blogs can't be fetched");
