@@ -4,11 +4,22 @@
 
   import { onMount } from "svelte";
   import Header from "./Header.svelte";
+  import { isDark } from "$lib/helper/viewStore";
 
   let nowDate = new Date();
 
   function updateTime() {
     nowDate = new Date();
+  }
+  function changeColor() {
+    $isDark = !$isDark;
+    const bodyClass = document.body;
+    localStorage.setItem("dark", $isDark.toString());
+    if ($isDark === true) {
+      bodyClass.classList.add("dark");
+    } else {
+      bodyClass.classList.remove("dark");
+    }
   }
 
   $: formatTime = nowDate.toLocaleTimeString("en-us", { hour12: false });
@@ -21,6 +32,16 @@
 
   onMount(() => {
     setInterval(updateTime, 1000);
+    const checkDark = window.localStorage.getItem("dark");
+    if (checkDark === "false") {
+      $isDark = false;
+      document.body.classList.remove("dark");
+      console.log(checkDark, $isDark);
+    } else {
+      $isDark = true;
+      document.body.classList.add("dark");
+      console.log(checkDark, $isDark);
+    }
   });
 </script>
 
@@ -30,7 +51,7 @@
   <meta name="description" content="My Mini Blogs like a Miniature Garden" />
 </svelte:head>
 
-<main class="max-w-4xl ma flex flex-col min-h-screen">
+<main class="main-layer">
   <header>
     <Header />
   </header>
@@ -38,12 +59,14 @@
     <slot />
   </section>
   <footer>
-    <div class="text-center">
-      <h3 class="text-4xl">{formatTime}</h3>
-      <p class="text-xs">&copy; {formatDate}</p>
+    <div class="text-center text-dark">
+      <p>{$isDark}</p>
+      <h3 class="text-4xl dark:text-orange">{formatTime}</h3>
+      <p class="text-xs dark:text-orange">&copy; {formatDate}</p>
     </div>
   </footer>
-  <div class="fixed bottom-0 right-0 m-2">
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <div class="fixed bottom-0 right-0 m-2" on:click={changeColor}>
     <div class="bg-dark rounded-lg p-2">
       <div class="icon i-mdi-weather-night text-2xl bg-blue-3" />
     </div>
@@ -51,10 +74,14 @@
 </main>
 
 <style>
+  .main-layer {
+    @apply max-w-4xl bg-dark-50 ma flex flex-col min-h-screen;
+    --at-apply: dark:bg-dark-50;
+  }
   .main-content {
     @apply flex-1 mt-12 items-center justify-center text-center;
   }
   footer {
-    @apply bg-white rounded-t-xl p-3;
+    --at-apply: bg-white dark:bg-dark-500 rounded-t-xl p-3;
   }
 </style>

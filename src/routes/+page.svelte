@@ -18,7 +18,7 @@
 
 <style>
   section {
-    @apply bg-white rounded-xl p-5 my-5;
+    --at-apply: bg-white dark:bg-dark-500 rounded-xl p-5 my-5;
   }
 
   .heading-text {

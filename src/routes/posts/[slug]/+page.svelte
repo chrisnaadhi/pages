@@ -19,9 +19,12 @@
 
 <style>
   section {
-    --at-apply: min-h-150 bg-white rounded-xl px-5 sm:px-10 py-5 my-5;
+    --at-apply: min-h-150 bg-white text-dark dark:bg-dark-500 rounded-xl px-5 sm:px-10 py-5 my-5;
   }
   .btn-link {
     --at-apply: bg-gray-2 text-orange-6 no-underline hover:(bg-orange text-white);
+  }
+  h3, p {
+    --at-apply: text-dark dark:text-white;
   }
 </style>

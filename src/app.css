@@ -28,7 +28,7 @@
 }
 
 body {
-  @apply bg-gray-2;
+  --at-apply: bg-dark-50;
 }
 
 h1,
@@ -41,35 +41,35 @@ h6 {
 }
 
 h1 {
-  @apply text-5xl;
+  --at-apply: text-5xl text-dark dark:text-white;
 }
 
 h2 {
-  @apply text-4xl;
+  --at-apply: text-4xl text-dark dark:text-white;
 }
 
 h3 {
-  @apply text-3xl;
+  --at-apply: text-3xl text-dark dark:text-white;
 }
 
 h4 {
-  @apply text-2xl;
+  --at-apply: text-2xl text-dark dark:text-white;
 }
 
 h5 {
-  @apply text-xl;
+  --at-apply: text-xl text-dark dark:text-white;
 }
 
 h6 {
-  @apply text-lg;
+  --at-apply: text-lg text-dark dark:text-white;
 }
 
 a {
-  @apply text-orange-6;
+  --at-apply: text-orange-6 dark:text-orange-3;
 }
 
 p {
-  @apply text-dark-1;
+  --at-apply: text-dark dark:text-white;
 }
 
 .menu-link {
@@ -85,5 +85,5 @@ p {
 }
 
 .code-block {
-  @apply bg-gray-3 rounded p-2 my-4;
+  --at-apply: bg-gray-3 dark:bg-dark-50 rounded p-2 my-4;
 }

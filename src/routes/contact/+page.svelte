@@ -11,6 +11,6 @@
 
 <style>
   section {
-    @apply min-h-150 bg-white rounded-xl p-5 my-5;
+    --at-apply: min-h-150 bg-white dark:bg-dark-500 rounded-xl p-5 my-5;
   }
 </style>
