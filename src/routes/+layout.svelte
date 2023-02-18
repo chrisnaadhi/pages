@@ -60,7 +60,6 @@
   </section>
   <footer>
     <div class="text-center text-dark">
-      <p>{$isDark}</p>
       <h3 class="text-4xl dark:text-orange">{formatTime}</h3>
       <p class="text-xs dark:text-orange">&copy; {formatDate}</p>
     </div>
