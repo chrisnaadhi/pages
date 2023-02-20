@@ -22,6 +22,6 @@
   }
 
   .heading-text {
-    @apply text-orange-6;
+    --at-apply: text-orange-6;
   }
 </style>

@@ -71,18 +71,18 @@
     --at-apply: p-1 bg-gray-50 dark:bg-gray-2 rounded-lg cursor-pointer sm:(px-3 py-2 rounded-lg);
   }
   .social {
-    @apply border-none;
+    --at-apply: border-none;
   }
   .social:hover .icon {
-    @apply bg-white;
+    --at-apply: bg-white;
   }
   #twitter:hover {
-    @apply bg-blue;
+    --at-apply: bg-blue;
   }
   #github:hover {
-    @apply bg-dark;
+    --at-apply: bg-dark;
   }
   #instagram:hover {
-    @apply bg-pink-5;
+    --at-apply: bg-pink-5;
   }
 </style>

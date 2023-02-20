@@ -74,11 +74,10 @@
 
 <style>
   .main-layer {
-    @apply max-w-4xl bg-dark-50 ma flex flex-col min-h-screen;
-    --at-apply: dark:bg-dark-50;
+    --at-apply: max-w-4xl bg-dark-50 ma flex flex-col min-h-screen;
   }
   .main-content {
-    @apply flex-1 mt-12 items-center justify-center text-center;
+    --at-apply: flex-1 mt-12 items-center justify-center text-center;
   }
   footer {
     --at-apply: bg-white dark:bg-dark-500 rounded-t-xl p-3;

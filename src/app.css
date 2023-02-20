@@ -16,15 +16,15 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply rounded-lg;
+  --at-apply: rounded-lg;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-orange-3 rounded-lg;
+  --at-apply: bg-orange-3 rounded-lg;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-orange cursor-pointer;
+  --at-apply: bg-orange cursor-pointer;
 }
 
 body {
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-500 text-dark-3;
+  --at-apply: font-500 text-dark-3;
 }
 
 h1 {
@@ -73,15 +73,15 @@ p {
 }
 
 .menu-link {
-  @apply text-orange-6 no-underline transition-all-500 rounded text-sm px-1 sm:(text-base px-3 py-1) hover:(bg-orange-6 text-white);
+  --at-apply: text-orange-6 no-underline transition-all-500 rounded text-sm px-1 sm:(text-base px-3 py-1) hover:(bg-orange-6 text-white);
 }
 
 .menu-active {
-  @apply bg-orange-6 text-white;
+  --at-apply: bg-orange-6 text-white;
 }
 
 .social {
-  @apply bg-gray-2 transition-all-500;
+  --at-apply: bg-gray-2 transition-all-500;
 }
 
 .code-block {
