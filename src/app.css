@@ -28,7 +28,7 @@
 }
 
 body {
-  --at-apply: bg-dark-50;
+  --at-apply: bg-gray-5 dark:bg-dark-50;
 }
 
 h1,

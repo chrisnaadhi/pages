@@ -5,7 +5,7 @@
 <section class="flex items-center justify-center gap-5 my-4">
   <div class="max-w-70 text-right">
     <h4>{myName}</h4>
-    <p class="text-xs text-white">
+    <p class="text-xs text-gray-2 dark:text-white">
       I'm Chrisna, Full-time Learner. Aspiring Web Developer and Enthusiast of
       IT in Library & Information Science.
     </p>
@@ -24,6 +24,6 @@
 
 <style>
   h4 {
-    --at-apply: text-white;
+    --at-apply: text-gray-2 dark:text-white;
   }
 </style>

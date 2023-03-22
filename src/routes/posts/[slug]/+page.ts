@@ -14,5 +14,7 @@ export const load = (async ({ fetch, params }) => {
     };
   }
 
-  throw error(404, "Not Found");
+  throw error(404, {
+    message: "Path not Found!",
+  });
 }) satisfies PageLoad;
