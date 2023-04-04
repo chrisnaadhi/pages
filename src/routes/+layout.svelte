@@ -65,7 +65,11 @@
     </div>
   </footer>
   <button class="" on:click={changeColor}>
-    <div class="icon i-mdi-weather-night text-2xl bg-blue-3" />
+    {#if $isDark}
+      <div class="icon i-mdi-white-balance-sunny text-2xl bg-blue-3" />
+    {:else if !$isDark}
+      <div class="icon i-mdi-weather-night text-2xl bg-blue-3" />
+    {/if}
   </button>
 </main>
 
