@@ -66,16 +66,16 @@
   </footer>
   <button class="" on:click={changeColor}>
     {#if $isDark}
-      <div class="icon i-mdi-white-balance-sunny text-2xl bg-blue-3" />
+      <div class="icon i-mdi-white-balance-sunny text-2xl bg-yellow" />
     {:else if !$isDark}
-      <div class="icon i-mdi-weather-night text-2xl bg-blue-3" />
+      <div class="icon i-mdi-weather-night text-2xl bg-yellow" />
     {/if}
   </button>
 </main>
 
 <style>
   .main-layer {
-    --at-apply: max-w-4xl bg-gray-5 ma flex flex-col min-h-screen;
+    --at-apply: max-w-4xl ma flex flex-col min-h-screen;
   }
   .main-content {
     --at-apply: flex-1 mt-12 items-center justify-center text-center;
@@ -84,6 +84,6 @@
     --at-apply: bg-white dark:bg-dark-500 rounded-t-xl p-3;
   }
   button {
-    --at-apply: fixed bottom-0 right-0 m-2 bg-dark p-2 rounded-lg cursor-pointer;
+    --at-apply: fixed bottom-0 right-0 m-2 bg-dark dark:bg-white p-2 rounded-lg cursor-pointer;
   }
 </style>

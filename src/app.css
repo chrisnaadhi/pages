@@ -28,7 +28,11 @@
 }
 
 body {
-  --at-apply: bg-gray-5 dark:bg-dark-50;
+  background-image: url("/images/bg-virtuous-treaty.webp");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 h1,

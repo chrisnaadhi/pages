@@ -2,14 +2,14 @@
   export let myName: string;
 </script>
 
-<section class="flex items-center justify-center gap-5 my-4">
+<section class="section-wrapper">
   <div class="max-w-70 text-right">
     <h4>{myName}</h4>
-    <p class="text-xs text-gray-2 dark:text-white">
+    <p class="text-xs text-dark dark:text-white">
       I'm Chrisna, Full-time Learner. Aspiring Web Developer and Enthusiast of
       IT in Library & Information Science.
     </p>
-    <a href="/about" class="text-sm text-orange-2 no-underline">About me..</a>
+    <a href="/about" class="text-sm text-orange no-underline">About me..</a>
   </div>
   <div>
     <img
@@ -23,7 +23,11 @@
 </section>
 
 <style>
+  .section-wrapper {
+    --at-apply: flex items-center justify-center gap-5 my-4 bg-white dark:bg-dark rounded-xl mt-5 py-3;
+  }
+
   h4 {
-    --at-apply: text-gray-2 dark:text-white;
+    --at-apply: text-orange dark:text-white;
   }
 </style>
