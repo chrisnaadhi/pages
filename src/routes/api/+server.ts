@@ -51,8 +51,6 @@ export const GET = (() => {
       <br />
       Context: <a href="https://annas-archive.org/blog/ai-copyright.html" target="_blank">https://annas-archive.org/blog/ai-copyright.html</a>
       <br />
-      In My Humble Opinion: Knowledge should be free, but ownership shall be granted thus it's all matters of ethics (just like citation). So I am very (and always have been) skeptical of the use of "legal" works that are locked with billions of subscriptions when most of us rely more on "illegal" works. After all, I believe more that all my works are made with the MIT License on GitHub so that everyone can use them, rather than having to be published with a _paywall_ which only benefits a few people.
-      <br />
       In My Humble Opinion: Knowledge should be free and accessible to all, as it is a fundamental pillar of progress, learning, and intellectual growth. However, ownership and attribution must be acknowledged and respected, as they are matters of ethics—just like citation in academic and creative works. Recognizing the contributions of authors, researchers, and creators ensures that intellectual property is valued while still allowing knowledge to be shared and built upon.
       <br />
       Libraries, as institutions of knowledge preservation and dissemination, will not endure merely because of their physical structures or printed collections. Rather, their survival hinges on the role of librarians and information professionals in curating, organizing, and delivering valuable and relevant information to users. It is through our dedication, expertise, and service that libraries remain indispensable in an ever-evolving digital world.
