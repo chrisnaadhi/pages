@@ -55,6 +55,8 @@ export const GET = (() => {
       <br />
       Libraries, as institutions of knowledge preservation and dissemination, will not endure merely because of their physical structures or printed collections. Rather, their survival hinges on the role of librarians and information professionals in curating, organizing, and delivering valuable and relevant information to users. It is through our dedication, expertise, and service that libraries remain indispensable in an ever-evolving digital world.
       <br />
+      I mean even SciHub uses Web 3 and Blockchains infrastructure to keep their stuff survived. You can check it on their sites : <a href="https://sci-hub.se" target="_blank">https://sci-hub.se</a>
+      <br />
       With this belief, I am convinced that infrastructure and information systems are not merely supporting elements but foundational components of modern libraries. A well-designed, adaptable, and user-centered information system can bridge gaps, enhance accessibility, and illuminate the path toward a more informed and connected society. Libraries, in essence, are not just about storing books—they are about empowering individuals with knowledge, fostering intellectual curiosity, and ensuring that information remains a beacon of enlightenment for generations to come.
       <br />
       <br />
