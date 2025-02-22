@@ -49,7 +49,7 @@ export const GET = (() => {
       The future of library infrastructure was really depend on the AI disruption that was happening in the world right now. AI was the most powerful tool that can be used to manage and disseminate the information in the most efficient way, but the AI was also the most dangerous tool that can be used to manipulate the information and the end-users itself. The librarian was the key to make sure the AI was used in the most ethical way and can be used to make the information more accessible and reliable for the end-users. <br />
       AI Races revives the "Western Bloc" and "Eastern Bloc" then Developers of illegal journal sites such as LibGen, Sci-Hub and Anna's Archive have begun to speak up and take the opportunity at this AI Races moment to vocally "threaten" America to "Reform" the issue of Copyright and Ownership of Copyrighted Works, by taking the case study of the Chinese LLM company.
       <br />
-      Context: https://annas-archive.org/blog/ai-copyright.html
+      Context: <a href="https://annas-archive.org/blog/ai-copyright.html" target="_blank">https://annas-archive.org/blog/ai-copyright.html</a>
       <br />
       In My Humble Opinion: Knowledge should be free, but ownership shall be granted thus it's all matters of ethics (just like citation). So I am very (and always have been) skeptical of the use of "legal" works that are locked with billions of subscriptions when most of us rely more on "illegal" works. After all, I believe more that all my works are made with the MIT License on GitHub so that everyone can use them, rather than having to be published with a _paywall_ which only benefits a few people.
       <br />
