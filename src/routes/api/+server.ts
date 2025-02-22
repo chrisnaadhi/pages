@@ -4,34 +4,6 @@ import type { RequestHandler } from "./$types";
 export const GET = (() => {
   const blogs = [
     {
-      id: 1,
-      title: "Hello World!",
-      date: "20 December 2022",
-      content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sequi harum consequuntur, eos natus quidem obcaecati enim earum quibusdam aliquam.`,
-      slug: "hello-world",
-    },
-    {
-      id: 2,
-      title: "Make it doubled!",
-      date: "20 December 2022",
-      content: `Here's an easy one that you can whip up quickly when you're running short on time. List the top 10 blog posts from the year. Or the top blog posts from around the web that week. Or simply do a ‘Best Of' post for your industry. This could be the best Twitter posts, forum posts, best blog posts, best news items, best product releases, etc. Whip up any combination of your choice. You could even do this on a weekly basis. People love these types of posts because it keeps them in the loop on what's going on in the industry without having to do all the searching themselves. Kikolani.com does a really good job of this in their ‘Fetching Friday' posts and check, out Pat’s Best of 2016 list.`,
-      slug: "make-it-doubled",
-    },
-    {
-      id: 3,
-      title: "Thrice upon a time!",
-      date: "20 December 2022",
-      content: `Following NERV's failed attempt to retrieve the Spears of Longinus and carry out the Human Instrumentality Project, the destruction caused by the Fourth Impact has been largely averted. In a state of disarray, Shinji Ikari, Asuka Langley Shikinami, and Rei Ayanami travel to Village 3—a survivor settlement free from Earth's ruination. There, Shinji slowly comes to terms with his past, developing an entirely different life from his days as an Evangelion pilot. Meanwhile, NERV makes preparations to continue the Instrumentality Project by means of a new Impact. When WILLE's main aerial battleship arrives at the village, Shinji decides to board, believing that he can help by piloting an Evangelion. As new secrets are uncovered and a battle between WILLE and NERV approaches, the future of Earth hangs in the balance. Can Shinji save humanity and the rest of the world one last time?`,
-      slug: "thrice-upon-a-time",
-    },
-    {
-      id: 4,
-      title: "Things I Wish I Had Done Differently",
-      date: "23 December 2022",
-      content: `These types of posts are almost always a hit because people love to read about other people's ‘mistakes'. Plus, they provide a ton of value for your readers and help them to avoid common pitfalls. Give your readers a look behind-the-curtain. Be authentic and transparent and people will love you for it.`,
-      slug: "things-i-wish",
-    },
-    {
       id: 5,
       title: "New Blog with SvelteKit",
       date: "24 December 2022",
@@ -69,6 +41,24 @@ export const GET = (() => {
       `,
       slug: "react-was-overhead",
     },
+    {
+      id: 9,
+      title: "Librarian and the future of library infrastructure with AI disruption",
+      date: "22 February 2025",
+      content: `Librarian was the most underrated profession in the world, because most of people was thinking that librarian was just a person that manage the books and the library itself. But, librarian was more than that, librarian was the information professional that can manage and disseminate the information to the end-users in the most convenient way. The librarian was the information architect that can make the information more accessible and reliable for the end-users. <br />
+      The future of library infrastructure was really depend on the AI disruption that was happening in the world right now. AI was the most powerful tool that can be used to manage and disseminate the information in the most efficient way, but the AI was also the most dangerous tool that can be used to manipulate the information and the end-users itself. The librarian was the key to make sure the AI was used in the most ethical way and can be used to make the information more accessible and reliable for the end-users. <br />
+      AI Races revives the "Western Bloc" and "Eastern Bloc" then Developers of illegal journal sites such as LibGen, Sci-Hub and Anna's Archive have begun to speak up and take the opportunity at this AI Races moment to vocally "threaten" America to "Reform" the issue of Copyright and Ownership of Copyrighted Works, by taking the case study of the Chinese LLM company.
+      <br />
+      Context: https://annas-archive.org/blog/ai-copyright.html
+      <br />
+      In My Humble Opinion: Knowledge should be free, but ownership shall be granted thus it's all matters of ethics (just like citation). So I am very (and always have been) skeptical of the use of "legal" works that are locked with billions of subscriptions when most of us rely more on "illegal" works. After all, I believe more that all my works are made with the MIT License on GitHub so that everyone can use them, rather than having to be published with a _paywall_ which only benefits a few people.
+      <br />
+      In My Humble Opinion: Knowledge should be free and accessible to all, as it is a fundamental pillar of progress, learning, and intellectual growth. However, ownership and attribution must be acknowledged and respected, as they are matters of ethics—just like citation in academic and creative works. Recognizing the contributions of authors, researchers, and creators ensures that intellectual property is valued while still allowing knowledge to be shared and built upon.
+      <br />
+      Libraries, as institutions of knowledge preservation and dissemination, will not endure merely because of their physical structures or printed collections. Rather, their survival hinges on the role of librarians and information professionals in curating, organizing, and delivering valuable and relevant information to users. It is through our dedication, expertise, and service that libraries remain indispensable in an ever-evolving digital world.
+      <br />
+      With this belief, I am convinced that infrastructure and information systems are not merely supporting elements but foundational components of modern libraries. A well-designed, adaptable, and user-centered information system can bridge gaps, enhance accessibility, and illuminate the path toward a more informed and connected society. Libraries, in essence, are not just about storing books—they are about empowering individuals with knowledge, fostering intellectual curiosity, and ensuring that information remains a beacon of enlightenment for generations to come.`
+    }
   ];
   if (!blogs) {
     throw error(404, "No Blogs can't be fetched");
