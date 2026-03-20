@@ -1,14 +1,14 @@
 <section class="wrapper">
-  <h5>Actively Maintained Website</h5>
+  <h5>Actively Maintained Project</h5>
   <div class="web-list">
-    <a href="https://sajiwafoundation.org" target="_blank">
-      <div class="btn-block">Sajiwa Foundation</div>
+    <a href="https://curatorian.id" target="_blank">
+      <div class="btn-block">Curatorian Project</div>
     </a>
-    <a href="https://kandaga-beta.vercel.app" target="_blank">
-      <div class="btn-block">Kandaga Unpad</div>
+    <a href="https://kandaga.unpad.ac.id" target="_blank">
+      <div class="btn-block">Kandaga Ecosystem</div>
     </a>
-    <a href="https://ngadongeng.com" target="_blank">
-      <div class="btn-block">Pabukon Ngadongeng</div>
+    <a href="https://github.com/curatorian/voile" target="_blank">
+      <div class="btn-block">Voile Project</div>
     </a>
   </div>
 </section>
